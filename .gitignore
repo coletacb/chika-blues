@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ignore database
+*.db
+
+# ignore excel files
+*.xslx
