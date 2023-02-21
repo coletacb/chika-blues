@@ -51,7 +51,7 @@ pivot_table_sorted = pivot_table.sort_values(by=['Attributed Rev (1d)'], ascendi
 
 ##SQLite DB Creation##
 
-conn = sqlite3.connect('output_file.db')
+conn = sqlite3.connect('pivot_table.db')
 
 # Store the pivot table in a new table in the database
 pivot_table_sorted.to_sql('pivot_table', conn)
