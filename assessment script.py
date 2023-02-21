@@ -35,7 +35,7 @@ time.sleep(30)
 driver.quit()
 
 # Get the latest downloaded file
-file_path = '/Users/charm/Downloads/*.xlsx'
+file_path = '/Users/charm/Downloads/*.xlsx' #change path to file download location
 files = sorted(glob.iglob(file_path), key=os.path.getctime, reverse=True)
 print(files[0])
 
